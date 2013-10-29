@@ -52,7 +52,7 @@ function main()
     {
         test.fail("Error in editing preferences"+ e);
     }  
-    
+    //--- Test --
     //--------Exiting the application------
     activateItem(waitForObjectItem(":xTuple ERP: *_QMenuBar", "System"));
     activateItem(waitForObjectItem(":xTuple ERP: *._System_QMenu", "Exit xTuple ERP..."));
